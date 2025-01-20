@@ -1,3 +1,15 @@
-Weight_in_pounds = input("What is your weight in pounds? ")
-weight_in_kilograms= int(Weight_in_pounds) * 0.45
-print(weight_in_kilograms )
+course = '''
+Hi John
+
+Here is our first email
+
+Thanks for
+your support
+
+thanks
+'''
+print(course)
+course = 'Python for Begginers'
+print(course[0:5])
+another = course[:3]
+print(another)
