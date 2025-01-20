@@ -1,2 +1,9 @@
-x = ( 2+3) * 10-3
-print(x)
+import math
+
+
+x = 2.9
+print(round(x))
+print(abs(-2.9))
+print(math.ceil(x))
+print(math.floor(x))
+
