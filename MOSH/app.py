@@ -1,10 +1,6 @@
-price = 1000000
+has_high_income = False
+has_good_credit = True
+criminal_record = False
 
-good_credit = True
-
-if good_credit:
-    down_payment = 0.1 * price
-else:
-    down_payment = 0.2 * price
-
-print(down_payment)
+if has_good_credit and not criminal_record:
+    print("Eligible for loan")
