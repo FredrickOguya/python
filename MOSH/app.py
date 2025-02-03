@@ -1,13 +1,7 @@
 numbers = [5, 2, 1, 7, 3,5 , 4, 5]
-numbers.insert(0,10)
-numbers.remove(5)
-#numbers.clear()
-numbers.pop()
-print(numbers.index(1))
-print(numbers)
-print(50 in numbers)
-print(numbers.count(5))
-numbers.sort()
-numbers.reverse()
-print(numbers)
-numbers2 = numbers.copy()
+solution = []
+
+for number in numbers:
+    if number not in solution:
+        solution.append(number)
+print(solution)
